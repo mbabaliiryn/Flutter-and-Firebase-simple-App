@@ -62,7 +62,7 @@ class _SignInState extends State<SignIn> {
                 onChanged: (val) {
                   setState(() => password = val);
                 },
-                decoration: const InputDecoration(hintText: 'Password'),
+                // decoration: const InputDecoration(hintText: 'Password'),
               ),
               const SizedBox(height: 20.0),
               ElevatedButton(
